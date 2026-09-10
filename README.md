@@ -69,3 +69,7 @@ You can also ask Codex to read `skills/gemini-web-worker/SKILL.md` for a one-off
 A future version could add a local task queue and MCP tools for task creation, status checks, result retrieval, and cancellation, with explicitly authorized browser access through an extension or an existing control channel. This is an unimplemented future design. It would need completion detection, reconnection, duplicate-assignment handling, user takeover, access control, and version compatibility.
 
 The first version tests the essential path: whether Codex can use existing browser tools to direct the Gemini web app, retrieve its answer, and continue the original task. Validation artifacts are in `qa/`.
+
+## License
+
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 kenktchau-cmyk.

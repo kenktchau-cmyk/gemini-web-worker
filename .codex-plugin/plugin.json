@@ -1,6 +1,7 @@
 {
   "name": "gemini-web-worker",
   "version": "0.1.0",
+  "license": "MIT",
   "description": "Delegate bounded tasks to Gemini in a browser, then review and continue in Codex.",
   "author": {
     "name": "kenktchau-cmyk"

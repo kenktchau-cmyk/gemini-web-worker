@@ -70,3 +70,7 @@ OpenAI 官方文件確認，外掛可以包含 Skills，而 Skill 可以由指�
 
 第一版先驗證最重要嘅路徑：Codex 能否透過現有瀏覽器工具，指揮 Gemini 網頁版並將答案收返繼續工作。實測資料放喺 `qa/`。
 
+## 授權
+
+本專案採用 [MIT 授權](LICENSE)。Copyright (c) 2026 kenktchau-cmyk。
+

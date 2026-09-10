@@ -1,0 +1,21 @@
+{
+  "name": "gemini-web-worker",
+  "version": "0.1.0",
+  "description": "Delegate bounded tasks to Gemini in a browser, then review and continue in Codex.",
+  "author": {
+    "name": "kenktchau-cmyk"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Gemini Web Worker",
+    "shortDescription": "Codex 派單，Gemini 網頁處理，Codex 驗收。",
+    "longDescription": "A skill-based workflow using an existing browser-control tool. Codex prepares task packets, reads Gemini replies, verifies results and requests bounded revisions. Requires a connected browser and Gemini access; no Gemini API integration is bundled.",
+    "developerName": "kenktchau-cmyk",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "用 Gemini 網頁版處理一個可以獨立驗收嘅子任務，再由你檢查結果繼續做。",
+      "請 Gemini 網頁版提出方案，由你驗證同整合。"
+    ]
+  }
+}

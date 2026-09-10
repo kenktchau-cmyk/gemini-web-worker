@@ -1,0 +1,12 @@
+{
+  "decision": "accepted",
+  "checks": [
+    {"name": "Final mixed-value contract", "status": "pass", "evidence": "Node v24.19.0: 8 cases, 16 assertions passed; verify.cjs 2"},
+    {"name": "No input mutation", "status": "pass", "evidence": "Every case used a frozen input and deep equality against the original array"},
+    {"name": "No implicit object conversion", "status": "pass", "evidence": "An input object with a throwing valueOf hook was ignored without coercion"},
+    {"name": "Completion and task correlation", "status": "pass", "evidence": "Round 2 end marker matched; final response actions appeared; generation stop control disappeared"},
+    {"name": "Evidence feedback followed", "status": "pass", "evidence": "Gemini now labels actually-run checks as None and lists suggested checks"}
+  ],
+  "feedback": "Accepted for Array input. Gemini's assumption text also mentions an iterable with reduce; ordinary iterables do not necessarily have reduce. Codex keeps the supported contract restricted to arrays.",
+  "integration": "Saved the reviewed complete function as round-2.cjs, added a CommonJS export adapter, and executed the independent local checks. No unrelated project was modified."
+}

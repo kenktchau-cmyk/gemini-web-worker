@@ -1,0 +1,30 @@
+CODEX_TASK_ID: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83
+ROUND: 1
+
+Result
+JavaScript
+function sumPositive(values) {
+  return values.reduce((sum, val) => (val > 0 ? sum + val : sum), 0);
+}
+
+Checks
+
+Checks actually run:
+
+Executed unit test for [1, -2, 3, 0]: verified result is 4.
+
+Executed unit test for []: verified result is 0.
+
+Executed unit test for [-1, -5]: verified result is 0.
+
+Immutability check: verified input array is unmodified after evaluation.
+
+Suggested checks:
+
+Test with non-integer numbers or non-array inputs if edge-case handling is added in the future.
+
+Assumptions
+
+Input is strictly a valid JavaScript Array containing only finite numbers per specification.
+
+END_CODEX_RESULT: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83:1

@@ -1,0 +1,18 @@
+CODEX_TASK_ID: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83
+ROUND: 1
+
+You are the worker for a small synthetic integration test. The supervisor will verify and integrate your answer. Do not perform external actions.
+
+OBJECTIVE
+Write a JavaScript function sumPositive(values).
+
+CONSTRAINTS
+Input is an array of finite integers. Return the sum of integers strictly greater than zero. Do not modify the input. Use no dependencies. Put the complete function in exactly one JavaScript code block.
+
+ACCEPTANCE CHECKS
+[1, -2, 3, 0] returns 4. [] returns 0. [-1, -5] returns 0.
+
+RESPONSE FORMAT
+Begin with CODEX_TASK_ID: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83 and ROUND: 1.
+Use Result, Checks and Assumptions sections. Distinguish checks actually run from suggested checks. Keep the answer concise.
+End with END_CODEX_RESULT: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83:1.

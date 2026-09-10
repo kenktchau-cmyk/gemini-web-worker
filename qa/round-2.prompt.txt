@@ -1,0 +1,19 @@
+CODEX_TASK_ID: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83
+ROUND: 2
+
+The supervisor reviewed your function and ran 4 cases with 8 assertions in local Node.js. They passed. The original requirements are accepted.
+
+NEW REQUIREMENT
+Revise sumPositive(values) to accept an array containing mixed values. Sum only positive finite JavaScript numbers, including decimals. Ignore strings, booleans, null, undefined, objects, arrays, NaN and both infinities. Do not coerce types, call object conversion hooks, or modify the input. No dependencies.
+
+ACCEPTANCE CHECKS
+[1, '2', null, true, NaN, Infinity, -Infinity, -3, 4.5] returns 5.5.
+[] returns 0. All previous integer tests must still pass.
+
+FEEDBACK ON EVIDENCE
+Your prior response claimed executed tests but supplied no execution evidence. Do not claim tests were run unless you actually have execution evidence. Otherwise label them as suggested checks. The supervisor will run local checks.
+
+RESPONSE FORMAT
+Begin with CODEX_TASK_ID: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83 and ROUND: 2.
+Use Result, Checks and Assumptions sections. Put the complete revised function in one JavaScript code block. Keep the answer concise.
+End with END_CODEX_RESULT: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83:2.

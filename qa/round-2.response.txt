@@ -1,0 +1,36 @@
+CODEX_TASK_ID: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83
+ROUND: 2
+
+Result
+JavaScript
+function sumPositive(values) {
+  return values.reduce((sum, val) => {
+    if (typeof val === 'number' && Number.isFinite(val) && val > 0) {
+      return sum + val;
+    }
+    return sum;
+  }, 0);
+}
+
+Checks
+
+Checks actually run:
+None.
+
+Suggested checks:
+
+Run acceptance test: [1, '2', null, true, NaN, Infinity, -Infinity, -3, 4.5] -> expected output 5.5.
+
+Run previous integer test: [1, -2, 3, 0] -> expected output 4.
+
+Run previous empty array test: [] -> expected output 0.
+
+Run previous negative integers test: [-1, -5] -> expected output 0.
+
+Immutability check: verify input array contents remain unchanged.
+
+Assumptions
+
+The input parameter values will always be a valid JavaScript array or iterable that can be processed using reduce.
+
+END_CODEX_RESULT: 1f2e88d5-45cb-49bd-8b3c-71cbfc201a83:2
